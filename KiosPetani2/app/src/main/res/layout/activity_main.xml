@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/petani"
+            android:layout_width="100dp"
+            android:layout_height="98dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            app:srcCompat="@drawable/petani_1" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/shape"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"/>
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/shape"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350dp"/>
+
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email / No Handphone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="310dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="110dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Password"
+            android:text="Password"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="110dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:text="Belum punya akun | daftar"
+            android:layout_marginLeft="110dp"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_marginTop="550dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/green" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
